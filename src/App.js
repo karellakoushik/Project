@@ -14,6 +14,7 @@ import RegisterMachine from './Components/Machines/RegisterMachine'
 import CheckRegisteredMachines from './Components/Machines/CheckRegisteredMachines'
 import Settings from './Components/Machines/Settings'
 import NewNavbar from './Components/NewNavbar'
+import Details from './Components/Machines/Details'
 import 'rsuite/dist/rsuite.min.css';
 
 
@@ -33,6 +34,7 @@ function App() {
         <Route path='/register-machine' element={<RegisterMachine/>}/>
         <Route path='/check-registered-machines' element={<CheckRegisteredMachines/>}/>
         <Route path='/machines-settings' element={<Settings/>}/>
+        <Route path='/check-registered-machines/model' element={<Details/>}/>
       </Routes>
     
     </BrowserRouter>
