@@ -43,8 +43,9 @@ router.get('/get-machines', async(req,res) => {
         {
             return  {
                 model:obj.model,
-                status:obj.status
-                //id:obj._id
+                status:obj.status,
+                email:obj.email,
+                manager:obj.manager
             } 
         })
         res.send(e)
