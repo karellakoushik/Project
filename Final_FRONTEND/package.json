@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-router-dom": "^6.3.0",
+    "recharts": "^2.1.13",
+    "rsuite": "^5.17.0",
+    "universal-cookie": "^4.0.4"
+  }
+}
