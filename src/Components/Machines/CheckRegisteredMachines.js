@@ -21,7 +21,7 @@ export default class Getmachines extends React.Component{
             this.setState({info:response.data})
         })
         .catch(err=>{
-            console.log(err) 
+            console.log(err)  
         })
         
     }
@@ -59,7 +59,8 @@ export default class Getmachines extends React.Component{
                                     <td>{e.model}</td>
                                     <td>{e.status}</td>
                                     <td>
-                                        <Link to={'/check-registered-machines/model'} state={{model:e.model, status: e.status}}>
+                                        <Link to={'/check-registered-machines/model'} 
+                                        state={{model:e.model, status: e.status, manager:e.manager, email:e.email}}>
                                         <button >Show Details</button>
                                         </Link>
                                         </td>
